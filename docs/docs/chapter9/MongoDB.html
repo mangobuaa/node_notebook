@@ -1,0 +1,885 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>MongoDB · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../chapter10/Mongoose.html" />
+    
+    
+    <link rel="prev" href="../chapter8/05.case.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../chapter1/readme.html">
+            
+                <a href="../chapter1/readme.html">
+            
+                    
+                    Node的模块化
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../chapter1/section1.html">
+            
+                <a href="../chapter1/section1.html">
+            
+                    
+                    模块化基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../chapter1/section2.html">
+            
+                <a href="../chapter1/section2.html">
+            
+                    
+                    引用核心模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../chapter1/section3.html">
+            
+                <a href="../chapter1/section3.html">
+            
+                    
+                    自定义模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../chapter1/section4.html">
+            
+                <a href="../chapter1/section4.html">
+            
+                    
+                    global对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../chapter1/section5.html">
+            
+                <a href="../chapter1/section5.html">
+            
+                    
+                    模块机制
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../chapter2/readme.html">
+            
+                <a href="../chapter2/readme.html">
+            
+                    
+                    包机制
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../chapter2/01.npm.html">
+            
+                <a href="../chapter2/01.npm.html">
+            
+                    
+                    NPM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../chapter2/02.searchPackage.html">
+            
+                <a href="../chapter2/02.searchPackage.html">
+            
+                    
+                    Node搜索包的流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../chapter2/03.mirror_cnpm.html">
+            
+                <a href="../chapter2/03.mirror_cnpm.html">
+            
+                    
+                    配置npm镜像
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../chapter3/Buffer.html">
+            
+                <a href="../chapter3/Buffer.html">
+            
+                    
+                    Buffer
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../chapter3/01.buffer2string.html">
+            
+                <a href="../chapter3/01.buffer2string.html">
+            
+                    
+                    Buffer和字符串间的转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../chapter3/02.build_buffer.html">
+            
+                <a href="../chapter3/02.build_buffer.html">
+            
+                    
+                    创建指定大小的Buffer对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../chapter3/03.write.html">
+            
+                <a href="../chapter3/03.write.html">
+            
+                    
+                    写入操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../chapter3/04.read.html">
+            
+                <a href="../chapter3/04.read.html">
+            
+                    
+                    读取操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../chapter3/05.others.html">
+            
+                <a href="../chapter3/05.others.html">
+            
+                    
+                    其他操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../chapter4/fs.html">
+            
+                <a href="../chapter4/fs.html">
+            
+                    
+                    核心模块—fs
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../chapter4/01.writeSync.html">
+            
+                <a href="../chapter4/01.writeSync.html">
+            
+                    
+                    同步文件写入
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../chapter4/02.writeAsync.html">
+            
+                <a href="../chapter4/02.writeAsync.html">
+            
+                    
+                    异步文件写入
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../chapter4/03.writeSimple.html">
+            
+                <a href="../chapter4/03.writeSimple.html">
+            
+                    
+                    简单文件写入
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../chapter4/04.writeStream.html">
+            
+                <a href="../chapter4/04.writeStream.html">
+            
+                    
+                    流式文件写入
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../chapter4/05.readFile.html">
+            
+                <a href="../chapter4/05.readFile.html">
+            
+                    
+                    文件读取
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../chapter5/os.html">
+            
+                <a href="../chapter5/os.html">
+            
+                    
+                    核心模块—os
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../chapter6/path.html">
+            
+                <a href="../chapter6/path.html">
+            
+                    
+                    核心模块—path
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../chapter7/http.html">
+            
+                <a href="../chapter7/http.html">
+            
+                    
+                    核心模块—http
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../chapter7/01.demo.html">
+            
+                <a href="../chapter7/01.demo.html">
+            
+                    
+                    简单demo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../chapter7/02.encode.html">
+            
+                <a href="../chapter7/02.encode.html">
+            
+                    
+                    编码问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../chapter7/03.Message_Board.html">
+            
+                <a href="../chapter7/03.Message_Board.html">
+            
+                    
+                    留言板案例
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../chapter8/express.html">
+            
+                <a href="../chapter8/express.html">
+            
+                    
+                    Express
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../chapter8/01.demo.html">
+            
+                <a href="../chapter8/01.demo.html">
+            
+                    
+                    入门案例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../chapter8/02.request.html">
+            
+                <a href="../chapter8/02.request.html">
+            
+                    
+                    获取请求数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../chapter8/03.art-template.html">
+            
+                <a href="../chapter8/03.art-template.html">
+            
+                    
+                    集成art-template
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="../chapter8/04.404.html">
+            
+                <a href="../chapter8/04.404.html">
+            
+                    
+                    处理404
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.5" data-path="../chapter8/05.case.html">
+            
+                <a href="../chapter8/05.case.html">
+            
+                    
+                    案例
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.10" data-path="MongoDB.html">
+            
+                <a href="MongoDB.html">
+            
+                    
+                    MongoDB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../chapter10/Mongoose.html">
+            
+                <a href="../chapter10/Mongoose.html">
+            
+                    
+                    Mongoose
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../chapter10/01.quickstart.html">
+            
+                <a href="../chapter10/01.quickstart.html">
+            
+                    
+                    quick start
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="../chapter10/02.save.html">
+            
+                <a href="../chapter10/02.save.html">
+            
+                    
+                    保存数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.3" data-path="../chapter10/03.query.html">
+            
+                <a href="../chapter10/03.query.html">
+            
+                    
+                    查询数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.4" data-path="../chapter10/04.remove.html">
+            
+                <a href="../chapter10/04.remove.html">
+            
+                    
+                    删除数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.5" data-path="../chapter10/05.update.html">
+            
+                <a href="../chapter10/05.update.html">
+            
+                    
+                    更新数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >MongoDB</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="mongodb">MongoDB</h1>
+<h2 id="&#x5173;&#x7CFB;&#x578B;&#x6570;&#x636E;&#x5E93;&#x548C;&#x975E;&#x5173;&#x7CFB;&#x578B;&#x6570;&#x636E;&#x5E93;">&#x5173;&#x7CFB;&#x578B;&#x6570;&#x636E;&#x5E93;&#x548C;&#x975E;&#x5173;&#x7CFB;&#x578B;&#x6570;&#x636E;&#x5E93;</h2>
+<p>&#x8868;&#x5C31;&#x662F;&#x5173;&#x7CFB;&#xFF1B;</p>
+<p>&#x6240;&#x6709;&#x7684;&#x5173;&#x7CFB;&#x578B;&#x6570;&#x636E;&#x5E93;&#x90FD;&#x9700;&#x8981; <code>sql</code> &#x64CD;&#x4F5C;</p>
+<h2 id="&#x57FA;&#x672C;&#x6982;&#x5FF5;">&#x57FA;&#x672C;&#x6982;&#x5FF5;</h2>
+<ul>
+<li>&#x6570;&#x636E;&#x5E93;</li>
+<li>&#x96C6;&#x5408;&#xFF08;&#x8868;&#xFF09;&#xFF1A;&#x4E00;&#x4E2A;&#x6570;&#x636E;&#x5E93;&#xFF0C;&#x6709;&#x591A;&#x4E2A;&#x96C6;&#x5408;</li>
+<li>&#x6587;&#x6863;&#xFF08;&#x8868;&#x8BB0;&#x5F55;&#xFF09;&#xFF1A;&#x4E00;&#x4E2A;&#x96C6;&#x5408;&#xFF0C;&#x53EF;&#x4EE5;&#x6709;&#x591A;&#x4E2A; &#x6587;&#x6863;</li>
+</ul>
+<pre><code class="lang-json">{
+  <span class="hljs-comment">// &#x6570;&#x636E;&#x5E93;</span>
+  qq: {
+    <span class="hljs-comment">// collection &#x96C6;&#x5408;&#xFF0C; &#x76F8;&#x5F53;&#x4E8E;&#x8868;</span>
+    users: [
+      <span class="hljs-comment">// &#x6587;&#x6863;&#xFF0C;&#x76F8;&#x5F53;&#x4E8E;MySql&#x4E2D;&#x7684;&#x8868;&#x8BB0;&#x5F55;</span>
+      {name: <span class="hljs-string">&apos;Mango&apos;</span>}.
+      ...
+    ]
+    products: [
+
+    ]
+  },
+taobao: {
+
+},
+...
+}
+</code></pre>
+<h2 id="&#x5E38;&#x7528;&#x64CD;&#x4F5C;">&#x5E38;&#x7528;&#x64CD;&#x4F5C;</h2>
+<pre><code class="lang-shell">mongod --version # &#x67E5;&#x770B;&#x7248;&#x672C;
+</code></pre>
+<h3 id="&#x5F00;&#x542F;&#x548C;&#x5173;&#x95ED;&#x670D;&#x52A1;">&#x5F00;&#x542F;&#x548C;&#x5173;&#x95ED;&#x670D;&#x52A1;</h3>
+<pre><code class="lang-shell"># mongodb &#x9ED8;&#x8BA4;&#x4F7F;&#x7528;&#x6267;&#x884C; mongod &#x547D;&#x4EE4;&#x7684;&#x6240;&#x5904;&#x76D8;&#x7B26;&#x6839;&#x76EE;&#x5F55;&#x4E0B;&#x7684; /data/db &#x4F5C;&#x4E3A;&#x81EA;&#x5DF1;&#x7684;&#x6570;&#x636E;&#x5B58;&#x50A8;&#x76EE;&#x5F55;
+# &#x53EF;&#x4EE5;&#x63D0;&#x524D;&#x65B0;&#x5EFA; /data/db &#x76EE;&#x5F55;
+mongod
+
+# &#x4FEE;&#x6539;&#x9ED8;&#x8BA4;&#x7684;&#x5B58;&#x50A8;&#x76EE;&#x5F55;
+mongod --dbpath=&#x8DEF;&#x5F84;
+
+# &#x5173;&#x95ED; Ctrl + C
+^c
+</code></pre>
+<h3 id="&#x8FDE;&#x63A5;&#x6570;&#x636E;&#x5E93;">&#x8FDE;&#x63A5;&#x6570;&#x636E;&#x5E93;</h3>
+<pre><code class="lang-shell"># &#x9ED8;&#x8BA4;&#x8FDE;&#x63A5;&#x672C;&#x673A;&#x670D;&#x52A1;
+mongo
+
+# &#x9000;&#x51FA;
+exit
+</code></pre>
+<h3 id="&#x57FA;&#x672C;&#x547D;&#x4EE4;">&#x57FA;&#x672C;&#x547D;&#x4EE4;</h3>
+<pre><code class="lang-shell"># &#x67E5;&#x770B;&#x6240;&#x6709;&#x6570;&#x636E;&#x5E93;
+show dbs
+
+# &#x67E5;&#x770B;&#x5F53;&#x524D;&#x8FDE;&#x63A5;&#x7684;&#x6570;&#x636E;&#x5E93;
+db
+
+# &#x65B0;&#x5EFA;&#x6570;&#x636E;&#x5E93;&#x6216;&#x5207;&#x6362;&#x81F3;dbName&#x6570;&#x636E;&#x5E93;
+use dbName
+
+# &#x63D2;&#x5165;&#x6570;&#x636E;
+db.students.insertOne({
+  &quot;name&quot;: &quot;Jack&quot;
+})
+
+# &#x663E;&#x793A;&#x6240;&#x6709;&#x96C6;&#x5408;
+show collections
+
+# &#x67E5;&#x627E;
+db.students.find()
+</code></pre>
+<h2 id="node&#x4E2D;&#x5982;&#x4F55;&#x64CD;&#x4F5C;mongodb">Node&#x4E2D;&#x5982;&#x4F55;&#x64CD;&#x4F5C;MongoDB</h2>
+<h3 id="&#x4F7F;&#x7528;&#x5B98;&#x65B9;&#x7684;mongodb&#x5305;">&#x4F7F;&#x7528;&#x5B98;&#x65B9;&#x7684;<code>mongodb</code>&#x5305;</h3>
+<p>&#x53EF;&#x67E5;&#x770B;github&#x4E0A;&#x7684;mongodb&#x5305;&#x7684;&#x4F7F;&#x7528;&#x65B9;&#x6CD5;</p>
+<h3 id="&#x4F7F;&#x7528;&#x7B2C;&#x4E09;&#x65B9;mongoose">&#x4F7F;&#x7528;&#x7B2C;&#x4E09;&#x65B9;<code>mongoose</code></h3>
+<p>&#x57FA;&#x4E8E;<code>mongodb</code>&#x505A;&#x4E86;&#x5C01;&#x88C5;&#x3002;</p>
+<p>www.mongoosejs.com</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../chapter8/05.case.html" class="navigation navigation-prev " aria-label="Previous page: 案例">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../chapter10/Mongoose.html" class="navigation navigation-next " aria-label="Next page: Mongoose">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"MongoDB","level":"1.10","depth":1,"next":{"title":"Mongoose","level":"1.11","depth":1,"path":"chapter10/Mongoose.md","ref":"chapter10/Mongoose.md","articles":[{"title":"quick start","level":"1.11.1","depth":2,"path":"chapter10/01.quickstart.md","ref":"chapter10/01.quickstart.md","articles":[]},{"title":"保存数据","level":"1.11.2","depth":2,"path":"chapter10/02.save.md","ref":"chapter10/02.save.md","articles":[]},{"title":"查询数据","level":"1.11.3","depth":2,"path":"chapter10/03.query.md","ref":"chapter10/03.query.md","articles":[]},{"title":"删除数据","level":"1.11.4","depth":2,"path":"chapter10/04.remove.md","ref":"chapter10/04.remove.md","articles":[]},{"title":"更新数据","level":"1.11.5","depth":2,"path":"chapter10/05.update.md","ref":"chapter10/05.update.md","articles":[]}]},"previous":{"title":"案例","level":"1.9.5","depth":2,"path":"chapter8/05.case.md","ref":"chapter8/05.case.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter9/MongoDB.md","mtime":"2019-10-12T08:00:12.335Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-10-12T08:06:23.003Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
